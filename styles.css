@@ -1,0 +1,83 @@
+/* deflaut reset */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  color: white;
+  background-color: black;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+}
+
+.navbar {
+  background-color: aqua;
+}
+
+nav ol ul li a {
+  display: flex;
+  justify-content: row;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: aqua;
+  flex-direction: row;
+  align-items: center;
+}
+
+nav li a {
+  display: flex;
+  color: blueviolet;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  flex-direction: row;
+}
+
+h1 {
+  color: blueviolet;
+  text-align: left;
+  margin-left: 75px;
+  margin-top: 75px;
+}
+
+p {
+  margin-left: 75px;
+  margin-top: 10px;
+}
+
+.button1 {
+  margin-left: 75px;
+  margin-top: 20px;
+  padding: 10px;
+  border-radius: 18px;
+  color: blueviolet;
+  background-color: aqua;
+}
+
+.button2 {
+  margin-left: 5px;
+  margin-top: 20px;
+  padding: 10px;
+  border-radius: 18px;
+  color: aqua;
+  background-color: blueviolet;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: blueviolet;
+  color: aqua;
+}
+
+h2 {
+  margin-top: 20px;
+  margin-left: 75px;
+}
